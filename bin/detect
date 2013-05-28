@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ $1/pre-requirements.txt ]; then
+    echo "Heroku dependencies: a way to install python dependencies in order"
+    exit 0
+else
+    echo "No pre-quirements"
+    exit 1
+fi
